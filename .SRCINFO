@@ -1,0 +1,19 @@
+pkgbase = tlescope-git
+	pkgdesc = TLEscope is a satellite visualization tool designed to transform Two-Line Element (TLE) sets into intuitive, interactive data.
+	pkgver = v3.7.2.14.gf3d54a4
+	pkgrel = 1
+	url = https://github.com/aweeri/TLEscope
+	arch = x86_64
+	license = AGPL-3
+	makedepends = git
+	makedepends = make
+	depends = gcc
+	depends = libx11
+	depends = libgl
+	depends = curl
+	provides = TLEscope
+	conflicts = tlescope-git
+	source = tlescope-git::git+https://github.com/aweeri/TLEscope
+	md5sums = SKIP
+
+pkgname = tlescope-git
