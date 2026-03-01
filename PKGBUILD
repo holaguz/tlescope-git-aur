@@ -8,7 +8,7 @@ arch=("x86_64")
 url="https://github.com/aweeri/TLEscope"
 license=("AGPL-3")
 provides=("TLEscope")
-conflicts=("tlescope-bin")
+conflicts=(tlescope-bin)
 
 depends=(gcc libx11 libgl curl)
 makedepends=(git make)
