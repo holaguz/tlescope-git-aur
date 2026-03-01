@@ -12,7 +12,7 @@ pkgbase = tlescope-git
 	depends = libgl
 	depends = curl
 	provides = TLEscope
-	conflicts = tlescope-git
+	conflicts = tlescope-bin
 	source = tlescope-git::git+https://github.com/aweeri/TLEscope
 	md5sums = SKIP
 
